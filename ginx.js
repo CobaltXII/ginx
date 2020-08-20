@@ -175,7 +175,7 @@ function forward(protocol, serverRequest, serverResponse, data) {
 				serverResponse.writeHead(forwardResponse.statusCode, forwardResponse.headers);
 				serverResponse.write(data);
 				serverResponse.end();
-			})
+			});
 		});
 
 		// Catch errors.
