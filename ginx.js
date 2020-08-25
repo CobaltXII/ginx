@@ -15,6 +15,9 @@ function help() {
 	console.log("\t-a\tThe address to listen on [default: 0.0.0.0].");
 	console.log("\t-f\tThe address to forward requests to [default: 127.0.0.1].");
 	console.log("\t-s\tThe certificate and key to use for HTTPS.");
+	console.log('');
+	console.log('contact:');
+	console.log('\thttp://cxii.org/');
 	process.exit();
 }
 

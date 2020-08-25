@@ -10,6 +10,9 @@ options:
 	-f	The address to forward requests to [default: 127.0.0.1].
 	-s	The certificate and key to use for HTTPS.
 
+contact:
+	http://cxii.org/
+
 common usage:
 	fwd a.com to localhost:1111, fwd b.com to localhost:2222, access via http
 	on port 80
