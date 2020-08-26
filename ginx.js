@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var http = require('http');
 var https = require('https');
 var fs = require('fs');
