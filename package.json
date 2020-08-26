@@ -1,0 +1,22 @@
+{
+  "name": "ginx",
+  "version": "1.0.0",
+  "description": "simple reverse proxy for virtual hosting",
+  "main": "ginx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CobaltXII/ginx.git"
+  },
+  "author": "CobaltXII (http://cxii.org/)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/CobaltXII/ginx/issues"
+  },
+  "homepage": "https://github.com/CobaltXII/ginx#readme",
+  "bin": {
+    "ginx": "./ginx.js"
+  }
+}
