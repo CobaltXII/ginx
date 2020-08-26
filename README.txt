@@ -13,6 +13,10 @@ options:
 contact:
 	http://cxii.org/
 
+installation with git & npm:
+	git clone https://github.com/CobaltXII/ginx.git
+	npm install -g .
+
 common usage:
 	fwd a.com to localhost:1111, fwd b.com to localhost:2222, access via http
 	on port 80
